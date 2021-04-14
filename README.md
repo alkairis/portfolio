@@ -7,11 +7,12 @@
 
 ## &#x1f4c8; My GitHub Stats
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alkairis&langs_count=6&hide=tsql&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=alkairis&repo=alkairis)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alkairis&langs_count=6&hide=tsql&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 [![alkairis's GitHub stats](https://github-readme-stats.vercel.app/api?username=alkairis&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+<!-- [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=alkairis&repo=alkairis)](https://github.com/anuraghazra/github-readme-stats)
+
 <!--
 **alkairis/alkairis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
