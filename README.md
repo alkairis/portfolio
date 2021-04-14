@@ -1,5 +1,5 @@
 ### Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I am Deepak Singh Rajput!
-![Twitter Follow](https://img.shields.io/twitter/follow/alkairis_?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/alkairis_?style=social)    ![GitHub followers](https://img.shields.io/github/followers/alkairis?style=social)
 
 <!--
 **alkairis/alkairis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
