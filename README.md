@@ -9,7 +9,7 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alkairis&hide=tsql,css&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
-[![alkairis's GitHub stats](https://github-readme-stats.vercel.app/api?username=alkairis&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![alkairis's GitHub stats](https://github-readme-stats.vercel.app/api?username=alkairis&langs_count=6&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 [![alkairis's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=alkairis)](https://github.com/anuraghazra/github-readme-stats)
 <!--
