@@ -2,7 +2,7 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/alkairis_?style=social)    ![GitHub followers](https://img.shields.io/github/followers/alkairis?style=social)
 
 
-<img src="https://cdn.worldvectorlogo.com/logos/javascript.svg" alt="JavaScript Logo" width="50" height="50"/> <img src="https://cdn.worldvectorlogo.com/logos/html5.svg" alt="CSS Logo" width="50" height="50"/>
+<img src="https://cdn.worldvectorlogo.com/logos/html5.svg" alt="HTML5 Logo" width="50" height="50"/> <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" alt="JavaScript Logo" width="50" height="50"/> <img src="https://cdn.worldvectorlogo.com/logos/jquery-1.svg" alt="Jquery Logo" width="50" height="50"/> <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="CodeIgniter Logo" width="50" height="50"/> <img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" alt="Laravel Logo" width="50" height="50"/> <img src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg" alt="Bootstrap 4 Logo" width="50" height="50"/> <img src="https://cdn.worldvectorlogo.com/logos/ajax-1.svg" alt="Ajax Logo" width="50" height="50"/> <img src="https://cdn.worldvectorlogo.com/logos/mysql-5.svg" alt="Mysql Logo" width="50" height="50"/> <img src="https://cdn.worldvectorlogo.com/logos/materialize-3.svg" alt="Materialize Logo" width="50" height="50"/> <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python Logo" width="50" height="50"/>
 <!--
 **alkairis/alkairis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
