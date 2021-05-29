@@ -1,8 +1,5 @@
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 ## Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I am Deepak Singh Rajput!
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="alkairis" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/alkairis?trk=profile-badge">Deepak Singh Rajput</a></div>
-              
 ![Twitter Follow](https://img.shields.io/twitter/follow/alkairis_?style=social)    ![GitHub followers](https://img.shields.io/github/followers/alkairis?style=social)
 
 
