@@ -3,7 +3,7 @@
 * Primary Programming language is Python
 * Secondary Pragramming language : JavaScript
 * Pationate for learning and developing new things.
-* I write [Tech Blogs](https://alkairis.medium.com)
+* I write [Tech Blogs](https://alkairis.medium.com).
 
 ### 🧰 Toolbox
 
@@ -17,7 +17,7 @@
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
-▶ [...more blog articles](https://alkairis.medium.com)
+▶ [Blog articles](https://alkairis.medium.com)
 
 ---
 
