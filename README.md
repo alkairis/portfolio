@@ -4,7 +4,7 @@
 
 ---
 ### Get in Touch
-📧 <a href="mailto@deepaksinghrajput@gmail.com">Email</a>
+📧 <a href="mailto:deepaksinghrajput@gmail.com">Email</a>
 ---
 
 ### 🧰 Toolbox
