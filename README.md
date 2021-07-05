@@ -3,7 +3,7 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/alkairis_?style=social)    ![GitHub followers](https://img.shields.io/github/followers/alkairis?style=social)
 
 ---
-### 📧 ![Email](deepaksinghrajput0711@gmail.com)
+### 📧 ![Email](mailto@deepaksinghrajput0711@gmail.com)
 ![Get in Touch]
 ---
 
