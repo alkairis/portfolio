@@ -28,10 +28,10 @@ Top Languages| Github Stats
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alkairis&langs_count=6&hide=tsql&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)    | [![alkairis's GitHub stats](https://github-readme-stats.vercel.app/api?username=alkairis&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
-[twitter]: https://twitter.com/alkairis_
-[gmail]: mailto:deepaksinghrajput0711@gmail.com
-[linkedin]: https://www.linkedin.com/in/alkairis/
-[Medium]: https://medium.com/@alkairis
-[Instagram]: https://www.instagram.com/alkairis_/
+[twitter](https://twitter.com/alkairis_)
+[gmail](mailto:deepaksinghrajput0711@gmail.com)
+[linkedin](https://www.linkedin.com/in/alkairis/)
+[Medium](https://medium.com/@alkairis)
+[Instagram](https://www.instagram.com/alkairis_/)
 
 ---
