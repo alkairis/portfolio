@@ -28,10 +28,14 @@ Top Languages| Github Stats
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alkairis&langs_count=6&hide=tsql&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)    | [![alkairis's GitHub stats](https://github-readme-stats.vercel.app/api?username=alkairis&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
-[twitter](https://twitter.com/alkairis_)
-[gmail](mailto:deepaksinghrajput0711@gmail.com)
-[linkedin](https://www.linkedin.com/in/alkairis/)
-[Medium](https://medium.com/@alkairis)
-[Instagram](https://www.instagram.com/alkairis_/)
+<a href='https://www.instagram.com/alkairis_/'><img src='https://cdn.icon-icons.com/icons2/836/PNG/512/Instagram_icon-icons.com_66804.png' width='50' height='50'/></a>
+
+<a href='https://twitter.com/alkairis_'><img src='https://cdn.icon-icons.com/icons2/122/PNG/512/twitter_socialnetwork_20007.png' width='50' height='50'/></a>
+
+<a href='mailto:deepaksinghrajput0711@gmail.com'><img src='https://cdn.icon-icons.com/icons2/272/PNG/512/Gmail_29991.png' width='50' height='50'/></a>
+
+<a href='https://www.linkedin.com/in/alkairis/'><img src='https://cdn.icon-icons.com/icons2/99/PNG/512/linkedin_socialnetwork_17441.png' width='50' height='50'/></a>
+
+<a href='https://medium.com/@alkairis'><img src='https://cdn.icon-icons.com/icons2/1584/PNG/512/3721675-medium_108052.png' width='50' height='50'/></a>
 
 ---
