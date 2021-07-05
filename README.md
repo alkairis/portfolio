@@ -28,6 +28,6 @@
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
-▶ [...more blog articles](https://www.alkairis.medium.com)
+▶ [...more blog articles](https://alkairis.medium.com)
 
 ---
