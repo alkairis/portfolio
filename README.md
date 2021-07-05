@@ -1,13 +1,9 @@
 ## Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I am Deepak Singh Rajput!
 
-![Twitter Follow](https://img.shields.io/twitter/follow/alkairis_?style=social)    ![GitHub followers](https://img.shields.io/github/followers/alkairis?style=social)
-
----
-### Get in Touch
-[<img height="30" src="https://img.shields.io/twitter/url?color=%231DA1F2&label=Twitter&logo=%231DA1F2&logoColor=%231DA1F2&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2Falkairis_" />][twitter]
-[<img height="30" src = "https://img.shields.io/badge/Youtube-%23E4405F.svg?&style=for-the-badge&logo=Youtube&logoColor=white">][Youtube] 
-[<img height="30" src="https://img.shields.io/badge/linkedin-blue.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][LinkedIn]
----
+* Primary Programming language is Python
+* Secondary Pragramming language : JavaScript
+* Pationate for learning and developing new things.
+* I write [Tech Blogs](https://alkairis.medium.com)
 
 ### 🧰 Toolbox
 
@@ -27,11 +23,15 @@
 
 ### &#x1f4c8; My GitHub Stats
  
-
-
-
 Top Languages| Github Stats
 | :---: | :---:
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alkairis&langs_count=6&hide=tsql&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)    | [![alkairis's GitHub stats](https://github-readme-stats.vercel.app/api?username=alkairis&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
+---
+[twitter]: https://twitter.com/alkairis_
+[gmail]: mailto:deepaksinghrajput0711@gmail.com
+[linkedin]: https://www.linkedin.com/in/alkairis/
+[Medium]: https://medium.com/@alkairis
+[Instagram]: https://www.instagram.com/alkairis_/
 
+---
