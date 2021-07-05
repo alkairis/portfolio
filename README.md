@@ -4,18 +4,7 @@
 
 ---
 ### Get in Touch
-<a href="mailto:deepaksinghrajput@gmail.com" style="display: inline-block;
-        background-color: #7b38d8;
-        border-radius: 10px;
-        border: 4px double #cccccc;
-        color: #eeeeee;
-        text-align: center;
-        font-size: 28px;
-        padding: 20px;
-        width: 200px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin: 5px;">📧 Email</a>
+<a href="mailto:deepaksinghrajput@gmail.com" style="display: inline-block;background-color: #7b38d8;border-radius: 10px;border: 4px double #cccccc;color: #eeeeee;text-align: center;font-size: 28px;padding: 20px;width: 200px;transition: all 0.5s;cursor: pointer;margin: 5px;">📧 Email</a>
 ---
 
 ### 🧰 Toolbox
