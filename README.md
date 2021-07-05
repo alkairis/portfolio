@@ -15,7 +15,7 @@
 📘 Latest Blog Articles
 
 <!-- BLOG-POST-LIST:START -->
-[![Sourav Dey's Blog Cards](https://github-cards-external-blogs.souravdey777.vercel.app/getMediumBlogs?username=alkairis&type=horizontal)](https://medium.com/@alkairis)
+[![Sourav Dey's Blog Cards](https://github-cards-external-blogs.souravdey777.vercel.app/getMediumBlogs?username=alkairis&type=horizontal&limit=7)](https://medium.com/@alkairis)
 
 <!-- BLOG-POST-LIST:END -->
 
