@@ -17,6 +17,11 @@
 [![Sourav Dey's Blog Cards](https://github-cards-external-blogs.souravdey777.vercel.app/getMediumBlogs?username=alkairis&type=horizontal&limit=7)](https://medium.com/@alkairis)
 
 <!-- BLOG-POST-LIST:START -->
+- [How to use Mongo shell in windows system](https://alkairis.medium.com/how-to-use-mongo-shell-in-windows-system-a90f28db355a?source=rss-86126611a1ba------2)
+- [Getting Started with MongoDB atlas](https://alkairis.medium.com/getting-started-with-mongodb-atlas-844951820b61?source=rss-86126611a1ba------2)
+- [Whether React is a library or a framework ?](https://alkairis.medium.com/whether-react-is-a-library-or-a-framework-b3c986035f77?source=rss-86126611a1ba------2)
+- [Some unknown facts about Artificial Intelligence](https://alkairis.medium.com/some-unknown-facts-about-artificial-intelligence-ccbdf8310b29?source=rss-86126611a1ba------2)
+- [Which is better React Native or Flutter](https://alkairis.medium.com/which-is-better-react-native-or-flutter-2e93507138a5?source=rss-86126611a1ba------2)
 <!-- BLOG-POST-LIST:END -->
 
 ---
