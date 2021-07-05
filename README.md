@@ -4,7 +4,9 @@
 
 ---
 ### Get in Touch
-<a href="mailto:deepaksinghrajput@gmail.com" style="display: inline-block;background-color: #7b38d8;border-radius: 10px;border: 4px double #cccccc;color: #eeeeee;text-align: center;font-size: 28px;padding: 20px;width: 200px;transition: all 0.5s;cursor: pointer;margin: 5px;">📧 Email</a>
+[<img height="30" src="https://img.shields.io/twitter/url?color=%231DA1F2&label=Twitter&logo=%231DA1F2&logoColor=%231DA1F2&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2Falkairis_" />][twitter]
+[<img height="30" src = "https://img.shields.io/badge/Youtube-%23E4405F.svg?&style=for-the-badge&logo=Youtube&logoColor=white">][Youtube] 
+[<img height="30" src="https://img.shields.io/badge/linkedin-blue.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][LinkedIn]
 ---
 
 ### 🧰 Toolbox
