@@ -13,13 +13,11 @@
 
 
 📘 Latest Blog Articles
-[![Sourav Dey's Blog Cards](https://github-cards-external-blogs.souravdey777.vercel.app/getMediumBlogs?username=alkairis&type=horizontal)](https://medium.com/@alkairis)
 
 <!-- BLOG-POST-LIST:START -->
+[![Sourav Dey's Blog Cards](https://github-cards-external-blogs.souravdey777.vercel.app/getMediumBlogs?username=alkairis&type=horizontal)](https://medium.com/@alkairis)
 
 <!-- BLOG-POST-LIST:END -->
-
-▶ [Blog articles](https://alkairis.medium.com)
 
 ---
 
