@@ -2,8 +2,16 @@
 
 * Primary Programming language is Python
 * Secondary Pragramming language : JavaScript
+* MERN stack developer.
 * Pationate for learning and developing new things.
 * I write [Tech Blogs](https://alkairis.medium.com).
+
+---
+### Get in contact
+<div align="center">
+<a href='https://www.instagram.com/alkairis_/'><img src='https://cdn.icon-icons.com/icons2/836/PNG/512/Instagram_icon-icons.com_66804.png' width='50' height='50'/></a>&nbsp;<a href='https://twitter.com/alkairis_'><img src='https://cdn.icon-icons.com/icons2/122/PNG/512/twitter_socialnetwork_20007.png' width='50' height='50'/></a>&nbsp;<a href='mailto:deepaksinghrajput0711@gmail.com'><img src='https://cdn.icon-icons.com/icons2/272/PNG/512/Gmail_29991.png' width='50' height='50'/></a>&nbsp;<a href='https://www.linkedin.com/in/alkairis/'><img src='https://cdn.icon-icons.com/icons2/99/PNG/512/linkedin_socialnetwork_17441.png' width='50' height='50'/></a>&nbsp;<a href='https://medium.com/@alkairis'><img src='https://cdn.icon-icons.com/icons2/1584/PNG/512/3721675-medium_108052.png' width='50' height='50'/></a>
+ </div>
+---
 
 ### 🧰 Toolbox
 
@@ -35,6 +43,4 @@ Top Languages| Github Stats
  <!--![Visitor Count](https://profile-counter.glitch.me/{alkairis}/count.svg)-->
 ![](https://komarev.com/ghpvc/?username=alkairis&style=flat-square&label=PROFILE+VIEWS&color=blueviolet)
 
----
-<a href='https://www.instagram.com/alkairis_/'><img src='https://cdn.icon-icons.com/icons2/836/PNG/512/Instagram_icon-icons.com_66804.png' width='50' height='50'/></a>&nbsp;<a href='https://twitter.com/alkairis_'><img src='https://cdn.icon-icons.com/icons2/122/PNG/512/twitter_socialnetwork_20007.png' width='50' height='50'/></a>&nbsp;<a href='mailto:deepaksinghrajput0711@gmail.com'><img src='https://cdn.icon-icons.com/icons2/272/PNG/512/Gmail_29991.png' width='50' height='50'/></a>&nbsp;<a href='https://www.linkedin.com/in/alkairis/'><img src='https://cdn.icon-icons.com/icons2/99/PNG/512/linkedin_socialnetwork_17441.png' width='50' height='50'/></a>&nbsp;<a href='https://medium.com/@alkairis'><img src='https://cdn.icon-icons.com/icons2/1584/PNG/512/3721675-medium_108052.png' width='50' height='50'/></a>
 ---
