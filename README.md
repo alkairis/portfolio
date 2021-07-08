@@ -2,7 +2,6 @@
 
 * Primary Programming language is Python
 * Secondary Pragramming language : JavaScript
-* MERN stack developer.
 * Pationate for learning and developing new things.
 * I write [Tech Blogs](https://alkairis.medium.com).
 
