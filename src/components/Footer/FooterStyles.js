@@ -111,10 +111,11 @@ export const SocialContainer = styled.div`
 		flex-wrap: wrap;
 	}
 `
-
+export const Hr = styled.div`
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+`
 
 export const LinkList = styled.ul`
-	border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: grid;
 	grid-template-columns: repeat(3, minmax(85px, 220px));
 	gap: 40px;

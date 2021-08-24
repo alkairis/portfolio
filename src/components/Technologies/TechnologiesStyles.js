@@ -30,7 +30,7 @@ export const MainImage = styled.img`
 export const List = styled.ul`
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
   margin: 3rem 0;
   
@@ -39,13 +39,13 @@ export const List = styled.ul`
   }
 
   @media ${props => props.theme.breakpoints.md}{
+  grid-template-columns: repeat(3, 1fr);
     margin: 64px 0;
     gap: 24px
   }
   
   @media ${props => props.theme.breakpoints.sm}{
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
     margin: 32px 0;
   }
 `
@@ -60,13 +60,14 @@ export const ListContainer = styled.div`
   }
 `
 
-export const ListTitle = styled.h4`
+export const TechTitle = styled.h4`
   font-weight: 700;
   font-size: 28px;
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 8px;
+  text-align: center;
 
 @media ${props => props.theme.breakpoints.md}{
   font-size: 24px;
@@ -81,10 +82,13 @@ export const ListTitle = styled.h4`
 }
 `
 
-export const ListParagraph = styled.p`
+export const ListName = styled.p`
   font-size: 18px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  align-content: center;
+  justify-content: center;
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;

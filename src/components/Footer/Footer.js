@@ -1,10 +1,12 @@
 import React from "react";
 import { FcPhoneAndroid } from "react-icons/fc";
 import {BsFillEnvelopeFill, BsArrowRight} from "react-icons/bs"
+import {SectionTitle} from '../../styles/GlobalComponents'
 
 import {
   CompanyContainer,
   FooterWrapper,
+  Hr,
   LinkColumn,
   LinkItem,
   LinkList,
@@ -15,7 +17,9 @@ import {
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="contact-me">
+      <Hr/><br/>
+        <SectionTitle>Contact Me <img src="/images/smile.png" width="30" height="30"/></SectionTitle>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call In <FcPhoneAndroid size="1.5rem"/></LinkTitle>

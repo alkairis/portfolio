@@ -1,6 +1,45 @@
-
 import styled from 'styled-components'
 
+export const Img = styled.img`
+  border-radius: 2%;
+  opacity: .6;
+
+  transition: opacity .6s ease-in-out;
+  will-change: opacity;
+  @media ${props => props.theme.breakpoints.sm} {
+    border-radius: 10px;
+  }
+  &:hover{
+    opacity: .8;
+  }
+`
+export const Div = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+  @media ${props => props.theme.breakpoints.sm} {
+  grid-template-columns: 1fr;
+  }
+`
+export const Card = styled.div`
+  color: white;
+  background-color: #0F1624;
+  border-radius: 45px;
+  background: #0F1624;
+  padding: 4rem;
+  box-shadow:  10px 10px 9px #090e17,
+              -10px -10px 9px #141e31;
+
+  
+  @media ${props => props.theme.breakpoints.sm} {
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+`
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
   background: #0F1624;
@@ -151,4 +190,25 @@ export const CarouselButtonDot = styled.div`
   margin: auto;
   width: 3px;
   height: 3px;
+`
+export const Pre = styled.pre`
+  max-width: 500px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  padding-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    max-width: 400;
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 24px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 11px;
+    line-height: 15px;
+    padding-bottom: 11px;
+  }
 `

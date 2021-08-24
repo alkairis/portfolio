@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 
 import {
+  Card,
   CarouselButton,
   CarouselButtonDot,
   CarouselButtons,
@@ -10,6 +11,9 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
+  Div,
+  Img,
+  Pre
 } from "./TimeLineStyles";
 import {
   Section,
@@ -65,29 +69,58 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-    <SectionDivider /><br/>
+      <SectionDivider />
+      <br />
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
-      </SectionText>
+      <Div>
+        <Card>
+            <Pre>
+              1&nbsp;&nbsp;class <b>Alkairis</b> extends <strong>Developer</strong> {`{`}
+            </Pre>
+            <Pre>2&nbsp;&nbsp;&nbsp; constructor(props) {`{`}</Pre>
+            <Pre>
+              3&nbsp;&nbsp;&nbsp;&nbsp; this.state = {`{`}
+            </Pre>
+            <Pre>
+              4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; name : "<strong>Deepak Singh Rajput</strong>",
+            </Pre>
+            <Pre>
+              5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; age : new
+              Date().getFullYear() - 1999,
+            </Pre>
+            <Pre>
+              6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; traits : ["Developer", "Blogger"]
+            </Pre>
+            <Pre>7&nbsp;&nbsp;&nbsp;&nbsp; {`}`}</Pre>
+            <Pre>8&nbsp;&nbsp;&nbsp; {`}`}</Pre>
+            <Pre>9&nbsp;&nbsp;{`}`}</Pre>
+        </Card>
+        <Card>
+          <Img src="/images/500077600383_118634.jpg" width="100%" height="100%"/>
+        </Card>
+      </Div>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
-            <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
+            <CarouselMobileScrollNode
+              key={index}
+              final={index === TOTAL_CAROUSEL_COUNT - 1}
+            >
               <CarouselItem
                 index={index}
                 id={`carousel__item-${index}`}
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}
               >
-              <CarouselItemTitle>
-                {item.year}
-                <CarouselItemImg
+                <CarouselItemTitle>
+                  {item.year}
+                  <CarouselItemImg
                     width="208"
                     height="6"
                     viewBox="0 0 208 6"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
                       fillRule="evenodd"
                       clipRule="evenodd"
@@ -102,7 +135,8 @@ const Timeline = () => {
                         y1="0.5"
                         x2="208"
                         y2="0.500295"
-                        gradientUnits="userSpaceOnUse">
+                        gradientUnits="userSpaceOnUse"
+                      >
                         <stop stopColor="white" />
                         <stop
                           offset="0.79478"
@@ -112,8 +146,8 @@ const Timeline = () => {
                       </linearGradient>
                     </defs>
                   </CarouselItemImg>
-              </CarouselItemTitle>
-              <CarouselItemText>{item.text}</CarouselItemText>
+                </CarouselItemTitle>
+                <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
             </CarouselMobileScrollNode>
           ))}
@@ -121,7 +155,7 @@ const Timeline = () => {
       </CarouselContainer>
       <CarouselButtons>
         {TimeLineData.map((item, index) => (
-          <CarouselButton 
+          <CarouselButton
             key={index}
             index={index}
             active={activeItem}

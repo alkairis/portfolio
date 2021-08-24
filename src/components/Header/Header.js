@@ -43,6 +43,11 @@ const Header = () => {
           <NavLink>About</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href='#contact-me'>
+          <NavLink>Contact Me</NavLink>
+        </Link>
+      </li>
     </Div2>
   </Container>
 )}
