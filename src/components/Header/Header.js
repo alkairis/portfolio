@@ -1,12 +1,25 @@
 import Link from 'next/link';
-import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import React, {useState, useEffect} from 'react';
 import { DiCssdeck } from 'react-icons/di';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import { Container, Div1, Div2, NavLink, Span } from './HeaderStyles';
 
-const Header = () =>  (
-  <Container>
+const Header = () => {
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 80){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  useEffect(()=> {
+    window.addEventListener('scroll', changeNavbarColor);
+  }, [])
+  
+  return (
+  <Container style={colorChange ? {backgroundColor: '#1a253b'} : null}>
     <Div1>
       <Link href="/">
         <a style={{display: 'flex', alignItems: 'center', color: 'white', marginBottom: '28px'}}>
@@ -31,19 +44,7 @@ const Header = () =>  (
         </Link>
       </li>
     </Div2>
-    <Div3>
-      <SocialIcons href="https://github.com/alkairis">
-        <AiFillGithub size="3rem"/>
-      </SocialIcons>
-      <SocialIcons href="https://github.com/alkairis">
-        <AiFillInstagram size="3rem"/>
-      </SocialIcons>
-      <SocialIcons href="https://github.com/alkairis">
-        <AiFillLinkedin size="3rem"/>
-      </SocialIcons>
-      
-    </Div3>
   </Container>
-);
+)}
 
 export default Header;

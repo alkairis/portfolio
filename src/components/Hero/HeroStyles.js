@@ -17,3 +17,8 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const Inline = styled.div`
+  display:grid;
+  grid-template-columns: 25% 70%;
+`

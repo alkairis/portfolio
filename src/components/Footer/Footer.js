@@ -1,7 +1,7 @@
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { FcPhoneAndroid } from "react-icons/fc";
+import {BsFillEnvelopeFill, BsArrowRight} from "react-icons/bs"
 
-import { SocialIcons } from "../Header/HeaderStyles";
 import {
   CompanyContainer,
   FooterWrapper,
@@ -10,7 +10,6 @@ import {
   LinkList,
   LinkTitle,
   Slogan,
-  SocialContainer,
   SocialIconsContainer,
 } from "./FooterStyles";
 
@@ -19,29 +18,18 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
+          <LinkTitle>Call In <FcPhoneAndroid size="1.5rem"/></LinkTitle>
           <LinkItem href="tel:+919644945358">+91 9644945358</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
+          <LinkTitle>Email <BsFillEnvelopeFill size="1.5rem" color="red"/></LinkTitle>
           <LinkItem href="mailto:deepaksinghrajput0711">Mail Me</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Keep moving forward</Slogan>
+          <Slogan>Keep moving forward <BsArrowRight size="1.5rem" color="white"/> </Slogan>
         </CompanyContainer>
-        <SocialContainer>
-          <SocialIcons href="https://github.com/alkairis">
-            <AiFillGithub size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://github.com/alkairis">
-            <AiFillInstagram size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://github.com/alkairis">
-            <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-        </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );

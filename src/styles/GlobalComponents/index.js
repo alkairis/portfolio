@@ -26,8 +26,8 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
-  line-height: ${(props) => props.main ? '72px' : '56px'};
+  font-size: ${(props) => props.main ? '36px' : '32px'};
+  line-height: ${(props) => props.main ? '40px' : '32px'};
   width: max-content;
   max-width: 100%;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
@@ -37,8 +37,8 @@ export const SectionTitle = styled.h2`
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
 
   @media ${props => props.theme.breakpoints.md}{
-    font-size: ${(props) => props.main ? '56px' : '48px'};
-    line-height: ${(props) => props.main ? '56px' : '48px'};
+    font-size: ${(props) => props.main ? '36px' : '32px'};
+    line-height: ${(props) => props.main ? '40px' : '36px'};
     margin-bottom: 12px;
     padding: ${(props) => props.main ? '40px 0 12px' : '0'};
   }
@@ -46,10 +46,10 @@ export const SectionTitle = styled.h2`
   @media ${props => props.theme.breakpoints.sm}{
     font-size: 32px;
     line-height: 40px;
-    font-size: ${(props) => props.main ? '28px' : '32px'};
-    line-height: ${(props) => props.main ? '32px' : '40px'};
+    font-size: ${(props) => props.main ? '24px' : '28px'};
+    line-height: ${(props) => props.main ? '28px' : '32px'};
     margin-bottom: 8px;
-    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    padding: ${(props) => props.main ? '0 8px' : '0'};
     max-width: 100%;
   }
 `
@@ -167,8 +167,8 @@ export const SecondaryBtn = styled.button`
 `
 
 export const ButtonBack = styled.div`
-  width: ${({ alt }) => alt ? '150px' : '262px'};
-  height: ${({ alt }) => alt ? '52px' : '64px'};
+  width: ${({ alt }) => alt ? '180px' : '280px'};
+  height: ${({ alt }) => alt ? '32px' : '48px'};
   border-radius: 50px;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
   font-weight: 600;
@@ -185,8 +185,8 @@ export const ButtonBack = styled.div`
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
 
   @media ${(props) => props.theme.breakpoints.md} {
-    width: ${({ alt }) => alt ? '150px' : '184px'};
-    height: ${({ alt }) => alt ? '52px' : '48px'};
+    width: ${({ alt }) => alt ? '170px' : '200px'};
+    height: ${({ alt }) => alt ? '32px' : '48px'};
     font-size: ${({ alt }) => alt ? '20px' : '16px'};
     margin-bottom: ${({ alt }) => alt ? '0' : '64px'};
   }

@@ -1,20 +1,41 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import {
+  Section,
+  SectionText,
+  SectionTitle
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection, Inline } from "./HeroStyles";
+import Typewriter from "typewriter-effect";
 
-const Hero = (props) => (
+
+const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br/>
-        Alkairis
+        Hi there{" "}
+        <img
+          src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
+          width="30px"
+        />
+        , <br />I am Deepak Singh Rajput!<br/>
+        <Inline>
+        <span>I am a </span><Typewriter
+          options={{
+            strings: ["Developer ", "Blogger"],
+            autoStart: true,
+            loop: true,
+          }}
+        />
+        </Inline>
       </SectionTitle>
       <SectionText>
-        The The The The The The The The The The The The The The The The The The The The The The The The The The The The The The The The The
+        I'm always converting JSON data in human understandable format.
       </SectionText>
-      <Button onClick={()=>window.location="https://dd"}>Learn More</Button>
+      <Button onClick={() => (window.location = "")}>
+        Download Resume
+      </Button>
     </LeftSection>
   </Section>
 );

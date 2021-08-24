@@ -12,6 +12,7 @@ import {
   TitleContent,
   UtilityList,
   Img,
+  StackContent
 } from "./ProjectsStyles";
 import {
   Section,
@@ -19,22 +20,24 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
+import {VscGithub } from 'react-icons/vsc'
+import {CgArrowTopRightR } from 'react-icons/cg'
 
 const Projects = () => {
   return (
-    <Section nopadding id="projects">
-      <SectionDivider />
-      <SectionTitle main>Projects</SectionTitle>
+    <Section id="projects">
+      <SectionDivider /><br/>
+      <SectionTitle>Some Things I have build</SectionTitle>
       <GridContainer>{
         projects.map(({title, description, image, tags, source, visit}, index) => (
           <BlogCard key={index}>
-            <Img src={image}/>
+            {index%2 ? <Img src={image}/> : null}
             <TitleContent>
               <HeaderThree >{title}</HeaderThree>
-              <Hr/>
               <CardInfo>{description}</CardInfo>
+              <Hr/>
               <div>
-                <TitleContent>Stack</TitleContent>
+                <StackContent>Stack</StackContent>
                 <TagList>
                   {tags.map((tag, index) => (
                     <Tag key={index}>{tag}</Tag>
@@ -43,13 +46,14 @@ const Projects = () => {
               </div>
               <UtilityList>
                 <ExternalLinks href={visit}>
-                  Code
+                  <VscGithub size="2rem"/>
                 </ExternalLinks>
                 <ExternalLinks href={source}>
-                  Source
+                  <CgArrowTopRightR size="2rem"/>
                 </ExternalLinks>
               </UtilityList>
             </TitleContent>
+            {!index%2 ? <Img src={image}/> : null}
           </BlogCard>
         ))}</GridContainer>
     </Section>
