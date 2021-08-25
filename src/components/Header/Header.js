@@ -23,7 +23,7 @@ const Header = () => {
     <Div1>
       <Link href="/">
         <a style={{display: 'flex', alignItems: 'center', color: 'white', marginBottom: '28px'}}>
-          <DiCssdeck size="3rem"/> <Span>Alkairis</Span>
+          <div style={{borderRadius: '50%', backgroundColor: 'white'}}><img src="/images/a.png" width="30" height="30"/></div> <Span>Alkairis</Span>
         </a>
       </Link>
     </Div1>

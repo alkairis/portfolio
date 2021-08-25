@@ -37,19 +37,19 @@ const Sidebar = () => (
       <SocialIcons href="https://github.com/alkairis">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://github.com/alkairis">
+      <SocialIcons href="https://www.linkedin.com/in/alkairis/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://github.com/alkairis">
+      <SocialIcons href="https://alkairis.medium.com/">
         <AiFillMediumCircle size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://github.com/alkairis">
+      <SocialIcons href="https://stackoverflow.com/users/13090289/deepak-singh-rajput">
         <FaStackOverflow size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://github.com/alkairis">
+      <SocialIcons href="https://www.instagram.com/alkairis_/">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://github.com/alkairis">
+      <SocialIcons href="https://twitter.com/alkairis_">
         <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
     </Div3>

@@ -29,12 +29,14 @@ const Projects = () => {
       <SectionDivider /><br/>
       <SectionTitle>Some Things I have build</SectionTitle>
       <GridContainer>{
-        projects.map(({title, description, image, tags, source, visit}, index) => (
+        projects.map(({title, description, image, tags, source, visit, time}, index) => (
           <BlogCard key={index}>
-            {index%2 ? <Img src={image}/> : null}
+            {index/2===1 || index===0 ? <Img src={image}/> : null}
             <TitleContent>
               <HeaderThree >{title}</HeaderThree>
               <CardInfo>{description}</CardInfo>
+              <br/>
+              <CardInfo>Time took to build <strong>{time}</strong></CardInfo>
               <Hr/>
               <div>
                 <StackContent>Stack</StackContent>
@@ -45,15 +47,15 @@ const Projects = () => {
                 </TagList>
               </div>
               <UtilityList>
-                <ExternalLinks href={visit}>
+                {source ? <ExternalLinks href={source}>
                   <VscGithub size="2rem"/>
-                </ExternalLinks>
-                <ExternalLinks href={source}>
+                </ExternalLinks> : null}
+                <ExternalLinks href={visit}>
                   <CgArrowTopRightR size="2rem"/>
                 </ExternalLinks>
               </UtilityList>
             </TitleContent>
-            {!index%2 ? <Img src={image}/> : null}
+            {index/2!==1 && index!==0 ? <Img src={image}/> : null}
           </BlogCard>
         ))}</GridContainer>
     </Section>

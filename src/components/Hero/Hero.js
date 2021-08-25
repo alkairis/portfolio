@@ -33,7 +33,7 @@ const Hero = () => (
       <SectionText>
         I'm always converting JSON data in human understandable format.
       </SectionText>
-      <Button onClick={() => (window.location = "")}>
+      <Button onClick={() => (window.open('/pdf/Deepak-Singh-Rajput.pdf'))}>
         Download Resume
       </Button>
     </LeftSection>
