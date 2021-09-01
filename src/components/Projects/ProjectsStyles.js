@@ -5,9 +5,9 @@ export const Img = styled.img`
   height: 100%;
   object-fit: cover;
   overflow: hidden;
-  /* @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.sm} {
     display: none;
-  } */
+  }
   filter:grayscale(100%) saturate(50%);
   transition: filter 0.5s ease-in-out;
 
