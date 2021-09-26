@@ -1,5 +1,14 @@
-import { IoIosArrowDropdown } from 'react-icons/io';
-import styled from 'styled-components';
+import { IoIosArrowDropdown } from "react-icons/io";
+import styled from "styled-components";
+
+export const Title = styled.a`
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 28px;
+`;
 
 export const Container = styled.div`
   display: grid;
@@ -9,7 +18,6 @@ export const Container = styled.div`
   padding-top: 1rem;
   z-index: 1;
   margin-left: 1rem;
-
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -85,8 +93,8 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   display: flex;
   align-self: center;
   transition: 0.3s ease;
-  opacity: ${({ isOpen }) => (isOpen ? '1' : '.75')};
-  transform: ${({ isOpen }) => (isOpen ? 'scaleY(-1)' : 'scaleY(1)')};
+  opacity: ${({ isOpen }) => (isOpen ? "1" : ".75")};
+  transform: ${({ isOpen }) => (isOpen ? "scaleY(-1)" : "scaleY(1)")};
 
   &:hover {
     opacity: 1;
@@ -98,7 +106,35 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   }
 `;
 
-
 export const Span = styled.span`
   font-size: 2rem;
-`
+`;
+
+export const Div3 = styled.div`
+  display: none;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: block;
+    margin-right : 0;
+    position: relative;
+  }
+`;
+
+export const Icons = styled.div`
+  margin-right: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+`;
+
+export const SocialIcons = styled.span`
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.7s ease;
+
+  &:hover > svg {
+    transform: scale(1.3);
+  }
+`;

@@ -6,7 +6,6 @@ import Technologies from "../components/Technologies/Technologies";
 import Timeline from "../components/TimeLine/TimeLine";
 import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
-
 import { useState } from "react";
 import {Loader, LoaderText} from "../layout/Loader";
 
@@ -16,7 +15,7 @@ const Home = () => {
   if(!ready) {
       setTimeout(() => {
         setReady(true)
-    }, 4000)
+    }, 1500)
       return (
         <Loader>
           <LoaderText>D</LoaderText>

@@ -8,6 +8,10 @@ const Container = styled.div`
   position: fixed;
   top: 50%;
   transform: translate(0px, -50%);
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: none;
+  }
 `;
 
 const Div3 = styled.div`
@@ -20,14 +24,16 @@ const Div3 = styled.div`
 `;
 
 export const SocialIcons = styled.a`
-  transition: 0.3s ease;
   color: white;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
   padding: 8px;
-  &:hover {
-    background-color: #212d45;
-    transform: scale(1.2);
-    cursor: pointer;
+  cursor: pointer;
+  transition: 0.7s ease;
+
+  &:hover > svg {
+    transform: scale(1.3);
   }
 `;
 
